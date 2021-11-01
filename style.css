@@ -1,0 +1,147 @@
+.container {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black ;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    font-family: bebas neue;
+}
+
+.left-container {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.right-container {
+    width: 50%;
+    margin-left: auto;
+}
+
+ul li {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.inner-container {
+    margin: 0px auto 5px auto;
+    background-color: #8DDBE0;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    padding: 20px;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.todo {
+    height: 100%;
+    background-color: black;
+    color: #D3FFE9;
+    border-radius: 10px;
+}
+
+.h2todo {
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#time {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#day-o-week {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#current-date {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#temp {
+    margin-left: 10px;
+    margin-top: 10px ;
+    margin-bottom: 0px;
+}
+
+#weather {
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.daily-info {
+    display: flex;
+}
+
+
+.date h2 {
+    color: #D3FFE9;
+    display: flex;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: #8DDBE0;
+    border-radius: 5px;
+    margin: 0px 10px 2px 10px;
+    padding: 10px 35px 10px 35px;
+    font-family: bebas neue;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+
+.btn:hover {
+    background-color: #8DF1FB;
+}
+
+/* .btn:focus {
+    background-color: #D3FFE9;
+    border: ;
+} */
+
+.active {
+    background-color: #D3FFE9;
+    border: solid 4px;
+    border-color: #8DF1FB;
+}
+
+.date {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+body {
+    background-color: black;
+    font-family: bebas neue;
+}
