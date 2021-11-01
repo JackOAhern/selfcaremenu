@@ -133,6 +133,8 @@ ul li {
     border: solid 4px;
     border-color: #8DF1FB;
 }
+/* https://stackoverflow.com/questions/31178653/how-to-keep-active-css-style-after-click-a-button */
+
 
 .date {
     height: 200px;
