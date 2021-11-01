@@ -1,8 +1,9 @@
+// Assigning all necessary data for each day (button) with key value pairs
 
 let data = {
   monday: {
       todos: ["Breakfast","Push-Day Workout","Post-Workout Shake","Shower & Lunch","Data Science Class","Writing Homework", "Stretch for 10 min"],
-      image: "/images/mondaydog.jpg",
+      image: "./images/mondaydog.jpg",
       dateinfo: {
         dayoweek: "monday",
         date: "11/01/2021",
@@ -13,7 +14,7 @@ let data = {
   },
   tuesday: {
         todos: ["Breakfast","Shower","Writing Class","Design Class", "Pull-Day Workout", "Post-Workout Shake","Coding Homework","Stretch for 5 min"],
-        image: "/images/tuesdaydog.jpg",
+        image: "./images/tuesdaydog.jpg",
         dateinfo: {
             dayoweek: "tuesday",
             date: "11/02/2021",
@@ -24,7 +25,7 @@ let data = {
   },
   wednesday: {
         todos: ["Breakfast","Leg-Day Workout","Post-Workout Shake","Shower & Lunch","Data Science Class","Writing Homework", "Design Homework","Stretch for 10min"],
-        image: "/images/wednesdaydog.jpg",
+        image: "./images/wednesdaydog.jpg",
         dateinfo: {
             dayoweek: "wednesday",
             date: "11/03/2021",
@@ -35,7 +36,7 @@ let data = {
   },
   thursday: {
         todos: ["Breakfast","Shower","Writing Class","Design Class", "Push-Day Workout", "Post-Workout Shake","Coding Homework","Stretch for 5 min"],
-        image: "/images/thursdaydog.jpg",
+        image: "./images/thursdaydog.jpg",
         dateinfo: {
             dayoweek: "Thursday",
             date: "11/04/2021",
@@ -46,7 +47,7 @@ let data = {
   },
   friday: {
         todos: ["Breakfast","Shower & Lunch","Data Science Class","Pull-Day Workout","Post-Workout Shake", "Dinner with Friends"],
-        image: "/images/fridaydog.jpg",
+        image: "./images/fridaydog.jpg",
         dateinfo: {
             dayoweek: "Friday",
             date: "11/05/2021",
@@ -57,7 +58,7 @@ let data = {
   },
   saturday: {
         todos: ["Breakfast","Skiing @ArapahoeBasin", "Shower & Dinner","Hanging with friends", "Stretch for 10min"],
-        image: "/images/saturdaydog.jpg",
+        image: "./images/saturdaydog.jpg",
         dateinfo: {
             dayoweek: "Saturday",
             date: "11/06/2021",
@@ -68,7 +69,7 @@ let data = {
   },
   sunday: {
         todos: ["Breakfast","Rest day","NFL Redzone","Lunch","Homework", "Prepare for upcoming week"],
-        image: "/images/sundaydog.jpg",
+        image: "./images/sundaydog.jpg",
         dateinfo: {
             dayoweek: "Sunday",
             date: "11/07/2021",
