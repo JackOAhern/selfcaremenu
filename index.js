@@ -13,7 +13,7 @@ let data = {
     }
   },
   tuesday: {
-    todos: ["Breakfast", "Shower", "Writing Class", "Design Class", "Pull-Day Workout", "Post-Workout Shake", "Coding Homework", "Stretch for 5 min"],
+    todos: ["Breakfast", "Shower", "Writing Class", "Design Class", "Pull-Day Workout", "Post-Workout Shake", "Coding Homework", "Read for 20 min"],
     image: "./images/tuesdaydog.jpg",
     dateinfo: {
       dayoweek: "tuesday",
